@@ -1,0 +1,28 @@
+{
+  "name": "leonardo-number",
+  "version": "1.0.0",
+  "description": "Calulate Leonardo number",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_packages/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnxhaja/LeonardoNumber.git"
+  },
+  "keywords": [
+    "leonardo",
+    "number",
+    "leonardo",
+    "tree"
+  ],
+  "author": "Abdul Jalil Laguindab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wnxhaja/LeonardoNumber/issues"
+  },
+  "homepage": "https://github.com/wnxhaja/LeonardoNumber#readme",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
