@@ -2,7 +2,8 @@
   "spec_dir": "spec",
   "spec_files": [
     "fibonacci_test.js",
-    "leonardo_test.js"
+    "leonardo_test.js",
+    "leonardoTree_test.js"
   ]
 
 }
