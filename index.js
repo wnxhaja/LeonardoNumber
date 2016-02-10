@@ -4,8 +4,9 @@
  * Answers for the problem
  */
 
+module.exports = require('./lib/LeonardoTree');
+module.exports = require('./lib/leonardo');
 
-module.exports.leonardo = require('./lib/leonardo');
 
 /**
  *  1.  ./lib/leonardo.js, function name: leonardo, O(n)
@@ -13,6 +14,7 @@ module.exports.leonardo = require('./lib/leonardo');
  *  2.  L(n) = 2*F(n+1)-1
  *
  *  3.  O(n) ,  function name : fibLeonardo
+ *
  *              What I know is that fibonacci can be optimized to O(log n) using the matrix identity and memoization.
  *              Therefore, we can use the formula in problem 2 to calculate the Leonardo then it optimized the time
  *              complexity to O(log n).
@@ -26,7 +28,12 @@ module.exports.leonardo = require('./lib/leonardo');
  *
  *  6. ./lib/leonardo.js, function name: forwardLeonardo, backwardLeonardo
  *
- *  7-10 No Answer
+ *  7. ./lib/LeonardoTree.js, function name : add, search
+ *
+ *  8.
+ *  9.
+ *  10.
  *
  */
+
 

@@ -2,24 +2,24 @@
  * Created by wnxhaja on 2/6/2016.
  */
 
-var fib = require('../lib/fibonacci');
+var fibonacci = require('../lib/fibonacci');
 
 describe('fibonacci', function(){
 
     it('of 0 is 0', function(){
-        var value = fib.fibonacci(0);
+        var value = fibonacci(0);
 
         expect(value).toBe(0);
     });
 
     it('of 1 is 1', function(){
-        var value = fib.fibonacci(1);
+        var value = fibonacci(1);
 
         expect(value).toBe(1);
     });
 
     it('of 6 is 8', function(){
-        var value = fib.fibonacci(6);
+        var value = fibonacci(6);
 
         expect(value).toBe(8);
     });
