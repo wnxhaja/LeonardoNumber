@@ -30,10 +30,8 @@ module.exports = require('./lib/leonardo');
  *
  *  7. ./lib/LeonardoTree.js, function name : add, search
  *
- *  8.
- *  9.
+ *  8. O(n)
+ *  9. O(n)
  *  10.
  *
  */
-
-

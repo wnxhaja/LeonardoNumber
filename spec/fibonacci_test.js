@@ -26,6 +26,6 @@ describe('fibonacci', function(){
 
     it('of negative number is error', function(){
 
-        expect(function(){ fib.fibonacci(-1);}).toThrow();
+        expect(function(){ fibonacci(-1);}).toThrow();
     });
 });

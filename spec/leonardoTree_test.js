@@ -15,7 +15,7 @@ describe('Adding trees in tree array',function(){
 
         LeonardoTree.add(value);
         var expectedValue = LeonardoTree.treeArray[0].root.value;
-        var expectedSize = LeonardoTree.treeArray[0].root.size;
+        var expectedSize = LeonardoTree.treeArray[0].root.size();
         var expectedLength = LeonardoTree.treeArray.length;
 
         expect(value).toBe(expectedValue);
@@ -32,7 +32,7 @@ describe('Adding trees in tree array',function(){
         LeonardoTree.add(value);
 
         var expectedValue = LeonardoTree.treeArray[1].root.value;
-        var expectedSize = LeonardoTree.treeArray[1].root.size;
+        var expectedSize = LeonardoTree.treeArray[1].root.size();
         expect(value).toBe(expectedValue);
         expect(size).toBe(expectedSize);
     });
@@ -52,7 +52,7 @@ describe('Adding trees in tree array',function(){
         expect(1).toBe(expectedLength);
 
         var expectedValue = LeonardoTree.treeArray[expectedLength-1].root.value;
-        var expectedSize = LeonardoTree.treeArray[expectedLength-1].root.size;
+        var expectedSize = LeonardoTree.treeArray[expectedLength-1].root.size();
         expect(value).toBe(expectedValue);
         expect(size).toBe(expectedSize);
 
@@ -64,7 +64,7 @@ describe('Adding trees in tree array',function(){
         expect(2).toBe(expectedLength);
 
         var expectedValue = LeonardoTree.treeArray[expectedLength-1].root.value;
-        var expectedSize = LeonardoTree.treeArray[expectedLength-1].root.size;
+        var expectedSize = LeonardoTree.treeArray[expectedLength-1].root.size();
         expect(value).toBe(expectedValue);
         expect(size).toBe(expectedSize);
 
@@ -76,12 +76,14 @@ describe('Adding trees in tree array',function(){
 describe('When searching a value',function(){
 
     //The Tree contains values added from previous test
-
     it('and the value is in the tree',function(){
+        var expected;
 
-        var expected = LeonardoTree.search(1);
+        for(var i = 0; i<=4;i++) {
+            expected = LeonardoTree.search(1);
 
-        expect(true).toBe(expected);
+            expect(true).toBe(expected);
+        }
     });
 
     it('and the value is not in the tree',function(){
